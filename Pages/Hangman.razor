@@ -1,0 +1,47 @@
+﻿@page "/hangman"
+@using HangmanBlazor.Models;
+
+<PageTitle>Hangman</PageTitle>
+
+<h1>Let's Play Hangman!</h1>
+
+@code {
+    GameBoard newGame = new GameBoard();
+
+    char[] abc = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+
+}
+
+<p role="status" style="font-size: 30px;">@newGame.CheckedWord <br> @newGame.winStatus</p>
+
+
+
+@if(newGame.winStatus == ""){
+@foreach(char letter in abc)
+{
+    int count = 0;
+    /* if statement that only creates buttons if they are NOT in the guesses list */
+    foreach(char x in newGame.guesses)
+    {
+        if(x != letter)
+        {
+            count++;
+        }
+        if(count == newGame.guesses.Count)
+        {
+            <button style="margin: 2px;" class="btn btn-primary" @onclick="@(() => newGame.AddChar(letter))">@letter</button> 
+        }
+
+    }
+    }
+        
+        
+    
+}
+
+
+<br><br>
+<button class="btn btn-primary" @onclick="@(() => newGame.Reset())">New Game</button>
+
+
+
