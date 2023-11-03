@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using HangmanBlazor.Data;
 
 
 
@@ -67,30 +68,11 @@ namespace HangmanBlazor.Models
 
          public string GenerateSecretWord()
             {
-                List<string> words = new List<string>
-                {
-                    "apple",
-                    "cheese",
-                    "cake",
-                    "rarest",
-                    "moody",
-                    "chocolate",
-                    "vanilla",
-                    "gamer",
-                    "hangman",
-                    "mathematics",
-                    "coffee",
-                    "computer",
-                    "school",
-
-
-
-                };
 
                 Random random = new Random();
-                int index = random.Next(words.Count);
+                int index = random.Next(Words.words.Count);
                 
-                return words[index];
+                return Words.words[index];
             }
 
         // A method to display the masked word with underscores for unguessed letters and showing correctly guessed letters.
