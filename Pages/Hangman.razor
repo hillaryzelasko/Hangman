@@ -9,10 +9,25 @@
     GameBoard newGame = new GameBoard();
 
     char[] abc = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-
 }
 
-<p role="status" style="font-size: 30px;">@newGame.CheckedWord <br> @newGame.winStatus</p>
+<div class="board">
+    <div class="gamepiece @newGame.Wrong(newGame.GuessQty)">
+        
+    </div>
+    
+</div>
+
+
+@if(newGame.GuessQty <= 5 )
+{
+    <p style="font-size: 30px;">@newGame.winStatus <br> @newGame.CheckedWord </p>
+}
+@if(newGame.GuessQty >= 6)
+{
+    <p style="font-size: 30px;">@newGame.winStatus <br> @newGame.Randomword</p>
+}
+
 
 
 

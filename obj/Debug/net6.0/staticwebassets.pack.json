@@ -5,6 +5,34 @@
       "PackagePath": "staticwebassets\\HangmanBlazor.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-0.png",
+      "PackagePath": "staticwebassets\\Hangman-0.png"
+    },
+    {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-1.png",
+      "PackagePath": "staticwebassets\\Hangman-1.png"
+    },
+    {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-2.png",
+      "PackagePath": "staticwebassets\\Hangman-2.png"
+    },
+    {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-3.png",
+      "PackagePath": "staticwebassets\\Hangman-3.png"
+    },
+    {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-4.png",
+      "PackagePath": "staticwebassets\\Hangman-4.png"
+    },
+    {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-5.png",
+      "PackagePath": "staticwebassets\\Hangman-5.png"
+    },
+    {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-6.png",
+      "PackagePath": "staticwebassets\\Hangman-6.png"
+    },
+    {
       "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },

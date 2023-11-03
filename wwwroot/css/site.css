@@ -62,3 +62,70 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+    .board {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        max-width: 300px;
+        height: 300px;
+        border: solid 1px black;
+    }
+    
+    
+    .gamepiece {
+        min-height: 60px;
+        min-width: 60px;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .wrong0 {
+        background-image: url("../Hangman-0.png");
+        background-repeat:no-repeat;
+        background-size: contain;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .wrong1 {
+        background-image: url("../Hangman-1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+    }
+
+    .wrong2 {
+        background-image: url("../Hangman-2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+    }
+    .wrong3 {
+        background-image: url("../Hangman-3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+    }
+
+    .wrong4 {
+        background-image: url("../Hangman-4.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+    }
+
+    .wrong5 {
+        background-image: url("../Hangman-5.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+    }
+
+    .wrong6 {
+        background-image: url("../Hangman-6.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+    }

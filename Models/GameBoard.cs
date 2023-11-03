@@ -46,6 +46,8 @@ namespace HangmanBlazor.Models
 
 
         public List<char> guesses = new List<char>{' '};
+
+        public string wrong = "wrong0";
     
 
         public GameBoard()
@@ -163,6 +165,52 @@ namespace HangmanBlazor.Models
 
         }
 
+
+    // method to switch the board depending on guessQty
+
+        public string Wrong(int guessQty)
+        {
+
+
+            switch(guessQty)
+            {
+                case 0: 
+                    return "wrong0";
+                    break;
+                
+                case 1: 
+                    return "wrong1";
+                    break;
+
+                case 2: 
+                    return "wrong2";
+                    break;
+
+                case 3: 
+                    return "wrong3";
+                    break;
+
+                case 4: 
+                    return "wrong4";
+                    break;
+
+                case 5: 
+                    return "wrong5";
+                    break;
+
+                case 6: 
+                    return "wrong6";
+                    break;
+
+
+                default:
+                    return "wrong0";
+                    break;
+
+            }
+
+            
+        }
 
 
     }

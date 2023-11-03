@@ -32,6 +32,10 @@ main[b-yvw99nhjqt] {
         text-overflow: ellipsis;
     }
 
+
+
+
+
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-yvw99nhjqt] {
         display: none;
