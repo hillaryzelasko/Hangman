@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bbknxcKFPcJMp4HaZENRPhEtXmJXKExnU0aAKr27IMo=",
+  "Hash": "KlkPOKl61/aEc28tNxP2098crOy5LK/Rd6bUSIiHouw=",
   "Source": "HangmanBlazor",
   "BasePath": "_content/HangmanBlazor",
   "Mode": "Default",
@@ -389,6 +389,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Hangman-6.png"
+    },
+    {
+      "Identity": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-7.png",
+      "SourceId": "HangmanBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\",
+      "BasePath": "_content/HangmanBlazor",
+      "RelativePath": "Hangman-7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Hangman-7.png"
     }
   ]
 }

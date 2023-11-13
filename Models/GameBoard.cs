@@ -15,7 +15,7 @@ namespace HangmanBlazor.Models
         /*
         - A string to hold the secret random word.
         - An integer to keep track of the number of incorrect guesses.
-        - Or try to integrate the guesses on the index page?? - A list of characters that stores the guesses made by the user.
+        - A list of characters that stores the guesses made by the user.
        */
 
         private string randomword;

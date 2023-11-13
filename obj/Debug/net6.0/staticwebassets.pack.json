@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Hangman-6.png"
     },
     {
+      "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\Hangman-7.png",
+      "PackagePath": "staticwebassets\\Hangman-7.png"
+    },
+    {
       "Id": "C:\\Users\\hilla\\OneDrive\\School\\CSC272\\Hangman\\HangmanBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },

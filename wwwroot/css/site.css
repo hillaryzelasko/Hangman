@@ -129,3 +129,10 @@ a, .btn-link {
         background-size: contain;
         width: 300px;
     }
+
+    .win {
+        background-image: url("../Hangman-7.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 300px;
+    }

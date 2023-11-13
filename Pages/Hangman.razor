@@ -11,21 +11,36 @@
     char[] abc = new char[] {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 }
 
-<div class="board">
+
+
+
+@if(newGame.GuessQty <= 5 && @newGame.winStatus == "")
+{
+    <div class="board">
     <div class="gamepiece @newGame.Wrong(newGame.GuessQty)">
         
     </div>
-    
 </div>
-
-
-@if(newGame.GuessQty <= 5 )
-{
     <p style="font-size: 30px;">@newGame.winStatus <br> @newGame.CheckedWord </p>
 }
-@if(newGame.GuessQty >= 6)
+else if(newGame.GuessQty <= 5 && @newGame.winStatus != "")
 {
-    <p style="font-size: 30px;">@newGame.winStatus <br> @newGame.Randomword</p>
+    <div class="board">
+    <div class="gamepiece win">
+        
+    </div>   
+    </div>
+    <p style="font-size: 30px;">@newGame.winStatus <br> @newGame.CheckedWord </p>
+}
+
+else if(newGame.GuessQty >= 6)
+{
+    <div class="board">
+    <div class="gamepiece @newGame.Wrong(newGame.GuessQty)">
+        
+    </div>
+    </div>
+    <p style="font-size: 30px;">@newGame.winStatus <br><b>The correct answer was:</b> @newGame.Randomword</p>
 }
 
 
